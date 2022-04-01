@@ -1,0 +1,233 @@
+/* CSS - External Style Sheet */
+/* Importing Google Fonts (Trocchi) and (Dancing Script) */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Trocchi&display=swap');
+
+/* Page Title Heading */
+h1 {
+    color:black; 
+    font-size: 100px; 
+    font-family: 'Trocchi', serif; 
+    display: flex; 
+    justify-content: center;
+}
+
+/* Page Title Sub Heading */
+h1 sup {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Body background Colour */
+body {
+    background-color: rgb(83, 85, 85, 0.1)
+}
+
+/* About Me Class - PAGE 1 - CSS Styles */
+.aboutMe {
+    background-color: wheat;
+    font-family: 'Trocchi', serif; 
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* About Me Class Sub Heading - PAGE 1 - CSS Styles */
+.aboutMe sup {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px; 
+}
+
+/* NavBar Position, Styling and functionality */
+#navbar {
+    background-color: navajowhite;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* Making the Nav Bar in a fixed top position once scrolled past - allowing for easy navigation */
+    position: sticky;
+    /* Safari - Apple iOS Browser*/
+    position: -webkit-sticky; 
+    top: 0;
+    border-top: 4px solid rgb(83, 85, 85);
+    border-bottom: 4px solid rgb(83, 85, 85);
+    margin: none;
+    padding: none;
+    scroll-behavior: smooth 
+}
+
+/* Nav Bar (id) - colour, no underline, font family(style) */
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Trocchi', serif;  
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+/* Nav Bar (id) - change colour when cursor hovers over link <a> */
+#navbar a:hover {
+    color: gray;
+}
+
+/* Heading 2 - Styling and Colour */
+h2 {
+    font-family: 'Trocchi', serif; 
+    font-size: 40px;
+    background-color: #002060;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* Footer Styling and Colour */
+footer{
+    font-family: 'Trocchi', serif; 
+    background-color: #002060;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 4px solid rgb(83, 85, 85);
+    border-bottom: 4px solid rgb(83, 85, 85);
+
+}
+
+/* Footer <a> tag  */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer <a> tag hover effect to change colour */
+footer a:hover {
+    color: gray;
+}
+
+/* Class Back To Top - Styling */
+#backToTop {
+    font-size: 20px;
+    scroll-behavior: smooth 
+}
+
+/* Class Back To Top - Hover Effect */
+#backToTop:hover {
+    font-size: 20px;
+    background-color: wheat;
+    color: black;
+}
+
+/* Heading Class */
+#heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Body of the webpage text */
+p, li, dd, #vark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* Data Term as a Sub Heading Styling */
+dt {
+    background-color: wheat;
+    letter-spacing: 3px;
+    font-family: 'Trocchi', serif; 
+    font-size: 25px;
+}
+
+/* Sub Heading H4 styling */
+h4 {
+    background-color: wheat;
+    letter-spacing: 3px;
+    writing-mode: vertical-rl;
+    padding: 20px;
+    font-size: 25px;
+}
+
+/* Footer Font style and size */
+footer p {
+    font-family: 'Trocchi', serif; 
+    font-size: 16px;
+}
+
+/* Styling of Mission Class */
+.mission {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Text Style and Position */
+#signOffOne {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    position:relative; 
+    left: 200px; 
+}
+
+/* Text Style and Position */
+#signOffTwo {
+    position:relative; 
+    left: 200px; 
+    font-family: 'Trocchi', serif; 
+    font-size: 50px;
+}
+
+/* PAGE 1 - Flex Box to align My Profile Image Image and H4 Sub Heading */
+#profileImg {
+    height: 20%;
+    width: 20%;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+}
+
+/* PAGE 2 - Flex Box to align Careers in Tech Image and H4 Sub Heading */
+#careerImg {
+    height: 40%;
+    width: 40%;
+}
+
+#careers {
+    display: flex;
+    justify-content: center;
+}
+
+#schedule {
+    display: flex;
+    justify-content: center;
+}
+
+#scheduleImg {
+    height: 50%;
+    width: 50%;
+}
+
+/* PAGE 3 - Flex Box to align Computing Handbook Image and H4 Sub Heading */
+#handbook {
+    display: flex;
+    justify-content: center;
+}
+
+#handbookImg {
+    height: 50%;
+    width: 50%;
+}
+
+/* PAGE 3 - Flex Box to align Motivational Quote Image and H4 Sub Heading */
+#motivation {
+    display: flex;
+    justify-content: center;
+}
+
+#motivationImg {
+    height: 40%;
+    width: 40%;
+}
